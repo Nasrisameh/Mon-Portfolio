@@ -5,7 +5,6 @@ Bienvenue sur mon portfolio personnel ! Ce site web présente mes compétences, 
 ## ✨ Fonctionnalités
 
 - **Responsive Design** : Adapté à tous les appareils (mobile, tablette, desktop)
-- **Mode Sombre/Clair** : Basculez entre les thèmes selon vos préférences
 - **Multilingue** : Support français et anglais
 - **Animations Fluides** : Transitions et effets visuels modernes
 - **Accessibilité** : Conforme aux standards WCAG

@@ -1,9 +1,7 @@
-import React, { createContext, useState } from 'react';
+import React, { useState } from 'react';
+import { LanguageContext } from './contexts';
 
-export const LanguageContext = createContext();
-
-// eslint-disable-next-line react-refresh/only-export-components
-export const LanguageProvider = ({ children }) => {
+const LanguageProvider = ({ children }) => {
   const [language, setLanguage] = useState('en'); // 'en' for English, 'fr' for French
 
   return (
@@ -12,3 +10,5 @@ export const LanguageProvider = ({ children }) => {
     </LanguageContext.Provider>
   );
 };
+
+export default LanguageProvider;

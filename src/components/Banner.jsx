@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useContext } from 'react';
-import { LanguageContext } from '../contexts/LanguageContext';
+import { LanguageContext } from '../contexts/contexts';
 
 const Banner = () => {
   const { language } = useContext(LanguageContext);

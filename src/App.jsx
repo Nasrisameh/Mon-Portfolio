@@ -1,6 +1,5 @@
 import React from 'react';
-import { LanguageProvider } from './contexts/LanguageContext';
-import { ThemeProvider } from './contexts/ThemeContext';
+import LanguageProvider from './contexts/LanguageContext';
 import Header from './components/Header';
 import Banner from './components/Banner';
 import Home from './components/Home';
@@ -11,19 +10,17 @@ import Contact from './components/Contact';
 
 function App() {
   return (
-    <ThemeProvider>
-      <LanguageProvider>
-        <div className="App">
-          <Header />
-          <Banner />
-          <Home />
-          <About />
-          <Skills />
-          <Projects />
-          <Contact />
-        </div>
-      </LanguageProvider>
-    </ThemeProvider>
+    <LanguageProvider>
+      <div className="App">
+        <Header />
+        <Banner />
+        <Home />
+        <About />
+        <Skills />
+        <Projects />
+        <Contact />
+      </div>
+    </LanguageProvider>
   );
 }
 
