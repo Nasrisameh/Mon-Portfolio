@@ -38,7 +38,7 @@ const Home = () => {
           <a href="mailto:nasri.sameh2016@gmail.com" className="btn-primary shadow-glow hover:shadow-glow-lg">
             {content[language].contact}
           </a>
-          <a href="cv.pdf" download className="btn-secondary">
+          <a href="images/cv.pdf" download className="btn-secondary">
             {language === 'fr' ? 'Télécharger CV' : 'Download CV'}
           </a>
           <a href="#about" className="btn-secondary">
