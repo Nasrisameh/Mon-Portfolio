@@ -130,9 +130,9 @@ Ce projet est sous licence MIT. Voir le fichier `LICENSE` pour plus de détails.
 
 ## 📞 Contact
 
-- **Email** : votre.email@example.com
-- **LinkedIn** : [Votre Profil](https://linkedin.com/in/votre-profil)
-- **GitHub** : [Votre GitHub](https://github.com/votre-username)
+- **Email** : nasri.sameh2016@gmail.com
+- **LinkedIn** : [Mon Profil](https://www.linkedin.com/in/sameh-nasri/)
+- **GitHub** : [Mon GitHub](https://github.com/Nasrisameh)
 
 ---
 
