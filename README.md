@@ -1,16 +1,139 @@
-# React + Vite
+# 🚀 Mon Portfolio - Développeur Web
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bienvenue sur mon portfolio personnel ! Ce site web présente mes compétences, projets et expériences en tant que développeur web. Construit avec React et Vite pour une performance optimale.
 
-Currently, two official plugins are available:
+## ✨ Fonctionnalités
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Responsive Design** : Adapté à tous les appareils (mobile, tablette, desktop)
+- **Mode Sombre/Clair** : Basculez entre les thèmes selon vos préférences
+- **Multilingue** : Support français et anglais
+- **Animations Fluides** : Transitions et effets visuels modernes
+- **Accessibilité** : Conforme aux standards WCAG
+- **Performance Optimisée** : Chargement rapide grâce à Vite
 
-## React Compiler
+## 🛠️ Technologies Utilisées
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Frontend** : React 18, Vite
+- **Styling** : Tailwind CSS, CSS Modules
+- **Animations** : Framer Motion
+- **Icônes** : React Icons, Lucide Icons
+- **Déploiement** : Vercel / Netlify
 
-## Expanding the ESLint configuration
+## 🚀 Démarrage Rapide
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Prérequis
+
+- Node.js (version 16 ou supérieure)
+- npm ou yarn
+
+### Installation
+
+1. Clonez le repository :
+   ```bash
+   git clone https://github.com/Nasrisameh/mon-portfolio.git
+   cd mon-portfolio
+   ```
+
+2. Installez les dépendances :
+   ```bash
+   npm install
+   ```
+
+3. Lancez le serveur de développement :
+   ```bash
+   npm run dev
+   ```
+
+4. Ouvrez [http://localhost:5173](http://localhost:5173) dans votre navigateur
+
+### Build pour la production
+
+```bash
+npm run build
+```
+
+## 📁 Structure du Projet
+
+```
+mon-portfolio/
+├── public/
+│   ├── images/
+│   └── vite.svg
+├── src/
+│   ├── components/
+│   │   ├── Header.jsx
+│   │   ├── Home.jsx
+│   │   ├── About.jsx
+│   │   ├── Skills.jsx
+│   │   ├── Projects.jsx
+│   │   ├── Contact.jsx
+│   │   └── Banner.jsx
+│   ├── contexts/
+│   │   ├── ThemeContext.jsx
+│   │   └── LanguageContext.jsx
+│   ├── assets/
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+├── package.json
+├── vite.config.js
+├── tailwind.config.js
+└── README.md
+```
+
+## 🎨 Personnalisation
+
+### Couleurs et Thèmes
+
+Modifiez les couleurs dans `tailwind.config.js` et les variables CSS dans `src/index.css`.
+
+### Contenu
+
+Éditez les composants dans `src/components/` pour personnaliser le contenu :
+- `Home.jsx` : Section d'accueil
+- `About.jsx` : À propos de moi
+- `Skills.jsx` : Compétences techniques
+- `Projects.jsx` : Projets réalisés
+- `Contact.jsx` : Informations de contact
+
+### Langues
+
+Ajoutez de nouvelles langues dans `src/contexts/LanguageContext.jsx` et créez les fichiers de traduction correspondants.
+
+## 📱 Sections du Portfolio
+
+1. **Accueil** : Présentation avec animation d'introduction
+2. **À Propos** : Biographie et parcours professionnel
+3. **Compétences** : Technologies maîtrisées avec niveaux de compétence
+4. **Projets** : Galerie de projets avec descriptions et liens
+5. **Contact** : Formulaire de contact et liens vers réseaux sociaux
+
+## 🌐 Déploiement
+
+### Vercel (Recommandé)
+
+1. Connectez votre repository GitHub à Vercel
+2. Déployez automatiquement à chaque push
+
+### Netlify
+
+1. Build command : `npm run build`
+2. Publish directory : `dist`
+
+## 🤝 Contribution
+
+Les contributions sont les bienvenues ! N'hésitez pas à ouvrir une issue ou une pull request.
+
+## 📄 Licence
+
+Ce projet est sous licence MIT. Voir le fichier `LICENSE` pour plus de détails.
+
+## 📞 Contact
+
+- **Email** : votre.email@example.com
+- **LinkedIn** : [Votre Profil](https://linkedin.com/in/votre-profil)
+- **GitHub** : [Votre GitHub](https://github.com/votre-username)
+
+---
+
+⭐ Si ce portfolio vous plaît, n'hésitez pas à laisser une étoile !
